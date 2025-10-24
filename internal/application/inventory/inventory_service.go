@@ -2,9 +2,9 @@ package inventory
 
 import (
 	"context"
-	"stocks/internal/domain"
-	"stocks/internal/domain/models"
-	"stocks/internal/shared/types"
+	"github.com/DimKa163/stocks/internal/domain"
+	"github.com/DimKa163/stocks/internal/domain/models"
+	"github.com/DimKa163/stocks/internal/shared/types"
 
 	"github.com/beevik/guid"
 )
