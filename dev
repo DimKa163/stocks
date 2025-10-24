@@ -1,0 +1,1 @@
+﻿mockgen -source=I:\GoLand\stocks\internal\domain\rest.go -destination=I:\GoLand\stocks\mocks\mock_rest_repository.go -package=mocks RestRepository
