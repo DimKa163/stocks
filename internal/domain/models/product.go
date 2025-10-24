@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/DimKa163/stock/internal/domain"
-	"github.com/DimKa163/stock/internal/shared/collection"
-	"github.com/DimKa163/stock/internal/shared/types"
+	"github.com/DimKa163/stocks/internal/domain"
+	"github.com/DimKa163/stocks/internal/shared/collection"
+	"github.com/DimKa163/stocks/internal/shared/types"
 	"github.com/beevik/guid"
 	"github.com/shopspring/decimal"
 )

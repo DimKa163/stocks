@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/DimKa163/stock/internal/domain"
-	"github.com/DimKa163/stock/internal/shared/types"
-	"github.com/DimKa163/stock/mocks"
+	"github.com/DimKa163/stocks/internal/domain"
+	"github.com/DimKa163/stocks/internal/shared/types"
+	"github.com/DimKa163/stocks/mocks"
 	"github.com/beevik/guid"
 	"github.com/golang/mock/gomock"
 	"github.com/shopspring/decimal"

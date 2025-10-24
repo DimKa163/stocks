@@ -7,8 +7,8 @@ package mocks
 import (
 	context "context"
 	reflect "reflect"
-	domain "stocks/internal/domain"
 
+	domain "github.com/DimKa163/stocks/internal/domain"
 	guid "github.com/beevik/guid"
 	gomock "github.com/golang/mock/gomock"
 )

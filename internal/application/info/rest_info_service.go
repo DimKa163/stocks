@@ -3,7 +3,7 @@ package info
 import (
 	"context"
 
-	"github.com/DimKa163/stock/internal/domain"
+	"github.com/DimKa163/stocks/internal/domain"
 	"github.com/beevik/guid"
 )
 

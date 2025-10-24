@@ -2,8 +2,8 @@ package persistance
 
 import (
 	"context"
-	"stocks/internal/domain"
-	"stocks/internal/shared/db"
+	"github.com/DimKa163/stocks/internal/domain"
+	"github.com/DimKa163/stocks/internal/shared/db"
 )
 
 type UnitOfWork struct {

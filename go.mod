@@ -1,4 +1,4 @@
-module github.com/DimKa163/stock
+module github.com/DimKa163/stocks
 
 go 1.24
 

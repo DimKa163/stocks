@@ -3,8 +3,8 @@ package persistance
 import (
 	"context"
 	"errors"
-	"stocks/internal/domain"
-	"stocks/internal/shared/db"
+	"github.com/DimKa163/stocks/internal/domain"
+	"github.com/DimKa163/stocks/internal/shared/db"
 
 	"github.com/beevik/guid"
 	"github.com/jackc/pgx/v5"
@@ -19,8 +19,8 @@ type RestRepository struct {
 	db db.QueryExecutor
 }
 
-func NewRestRepository(db db.QueryExecutor) RestRepository {
-	return RestRepository{db: db}
+func NewRestRepository(db db.QueryExecutor) *RestRepository {
+	return &RestRepository{db: db}
 }
 
 func (r *RestRepository) Get(ctx context.Context, filialID guid.Guid, warehouseID guid.Guid, productID guid.Guid) (*domain.Rest, error) {
